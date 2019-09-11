@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  max-width: 1000px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ h2 {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     grid-gap: 30px;
-    max-width: 1000px;
+    max-width: 850px;
     margin: 30px auto;
     grid-template-rows: min-content;
 }
@@ -111,7 +111,7 @@ h2 {
 
 @media screen and (min-width: 992px){
   #books {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -120,6 +120,11 @@ h2 {
     text-align: center;
     border-radius: 5px;
     position: relative;
+    min-height: 400px;
+    background-color: #D0CECF;
+    border-radius: 10px 10px 30px 10px;
+    padding: 20px;
+    max-width: 265px;
 }
 
 @media screen and (max-width: 425px){
@@ -130,41 +135,23 @@ h2 {
 
 .emoji-card-wrapper {
   position: relative;
+      border: 25px solid #6E6B83;
+    border-top: 15px solid #6E6B83;
+    border-bottom: 15px solid #6E6B83;
+  border-radius: 10px 10px 30px 10px;
+  min-height: 170px;
 }
 
 
 .emoji-images {
-  box-shadow: 5px 5px 10px rgba(0,0,0,.1);
   position: relative;
   background-color: white;
-  padding: 20px 15px 20px 30px;
+  padding: 10px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border-left: 15px solid #c976ff;
-}
-
-.emoji-images:before {
-    border-color: transparent transparent #c976ff transparent;
-    position: absolute;
-    content: '';
-    border-style: solid;
-    border-width: 0 0 20px 20px;
-    bottom: 0;
-    right: 0;
-}
-
-.emoji-images:after {
-  position: absolute;
-    content: '';
-    height: 22px;
-    width: 29px;
-    background: #c976ff;
-    top: -11px;
-    left: 15px;
-    z-index: -1;
 }
 
 .emoji-images img {
@@ -178,16 +165,13 @@ h2 {
 }
 
 .emoji-card-title {
-  box-shadow: 5px 5px 10px rgba(0,0,0,.1);
   transition:all .2s;
   transition: visibility 0s, height 0s, opacity 0.5s linear;
   margin-top: 10px;
   margin: 0;
-  background-color: #c976ff;
-  border-top: 2px solid #352649;
 }
 
-.emoji-card:nth-child(2n) .emoji-card-title,
+/* .emoji-card:nth-child(2n) .emoji-card-title,
 .emoji-card:nth-child(2n) .hint,
 .emoji-card:nth-child(2n) .emoji-images:after  {
     background-color: #76ffd2;
@@ -209,39 +193,8 @@ h2 {
 .emoji-card:nth-child(6n) .hint,
 .emoji-card:nth-child(6n) .emoji-images:after  {
     background-color: #ffcd76;
-}
+} */
 
-.emoji-card:nth-child(2n) .emoji-images:before {
-    border-color: transparent transparent #76ffd2 transparent;
-}
-
-.emoji-card:nth-child(3n) .emoji-images:before {
-    border-color: transparent transparent #76b4ff transparent;
-}
-
-.emoji-card:nth-child(5n) .emoji-images:before {
-    border-color: transparent transparent #ff7676 transparent;
-}
-
-.emoji-card:nth-child(6n) .emoji-images:before {
-    border-color: transparent transparent #ffcd76 transparent;
-}
-
-.emoji-card:nth-child(2n) .emoji-images{
-  border-left: 15px solid #76ffd2;
-}
-
-.emoji-card:nth-child(3n) .emoji-images{
-  border-left: 15px solid #76b4ff;
-}
-
-.emoji-card:nth-child(5n) .emoji-images{
-  border-left: 15px solid #ff7676;
-}
-
-.emoji-card:nth-child(6n) .emoji-images{
-  border-left: 15px solid #ffcd76;
-}
 
 .emoji-card-title h3 {
   color: black;

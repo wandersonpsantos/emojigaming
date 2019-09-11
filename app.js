@@ -26,7 +26,7 @@ $(document).ready(function () {
         " (" + emojiItems[i].year + ")" + "</h3>";
     }
     
-    emojiCard += "<div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
+    emojiCard += "<div class='creator-container'><h4>" + emojiItems[i].creator + "</h4></div>";
     
     emojiCard += "</div></div></div></div>";
   }
