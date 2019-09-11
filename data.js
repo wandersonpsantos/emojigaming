@@ -1,55 +1,45 @@
 const emojiItems = [
     {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
+        title: "Animal Crossing",
+        creator: ["J.K. Rowling"],
         emojiImgs: "🧙‍♂️🐍📓👩⚡️",
         link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
         genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        year: 1998,
+        type: "video-game",
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
+        title: "Halo",
+        creator: ["J.K. Rowling"],
         emojiImgs: "🧙‍♂️🐍📓👩⚡️",
         link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
         genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        year: 1998,
+        type: "video-game",
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
+        title: "Oregon Trail",
+        creator: ["J.K. Rowling"],
         emojiImgs: "🧙‍♂️🐍📓👩⚡️",
         link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
         genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        year: 1998,
+        type: "video-game",
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
+        title: "Monopoly",
+        creator: ["J.K. Rowling"],
         emojiImgs: "🧙‍♂️🐍📓👩⚡️",
         link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
         genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        year: 1998,
+        type: "video-game",
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
+        title: "Battleships",
+        creator: ["J.K. Rowling"],
         emojiImgs: "🧙‍♂️🐍📓👩⚡️",
         link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
         genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        year: 1998,
+        type: "video-game",
     }
-    
 ]
 
 
