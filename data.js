@@ -1,7 +1,7 @@
 const emojiItems = [
     {
         title: "Animal Crossing",
-        creator: ["J.K. Rowling"],
+        creator: ["Hasbro"],
         emojiImgs: "🧙‍♂️🐍📓👩⚡️",
         genres: ["fantasy", "young-adult", "fiction", "magic"],
         year: 1998,
