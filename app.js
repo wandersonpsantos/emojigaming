@@ -14,21 +14,7 @@ $(document).ready(function () {
     emojiCard +=
     "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
     "</span></p></div><div class='emoji-images'>" + emojiItems[i].emojiImgs +
-    "</div><div class='emoji-card-title hide-card'>";
-
-    emojiCard += "<div class='title-content'>";
-
-    if(emojiItems[i].link){
-      emojiCard += "<div class='emoji-card-link'><a href='" + emojiItems[i].link + "' target='_blank'><h3> " + emojiItems[i].title +
-      " (" + emojiItems[i].year + ")" + "</h3></a></div>";
-    } else {
-      emojiCard += "<h3>" + emojiItems[i].title +
-        " (" + emojiItems[i].year + ")" + "</h3>";
-    }
-    
-    emojiCard += "<div class='creator-container'><h4>" + emojiItems[i].creator + "</h4></div>";
-    
-    emojiCard += "</div></div></div></div>";
+    "</div><div class='emoji-card-title hide-card'><div class='title-content'><h3>" + emojiItems[i].title + " (" + emojiItems[i].year + ")" + "</h3><div class='creator-container'><h4>" + emojiItems[i].creator + "</h4></div></div></div></div></div>";
   }
 
   // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
