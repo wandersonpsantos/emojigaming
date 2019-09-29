@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Create a variable for the container to hold the emoji cards.
-  var emojiCardContainer = $("#books");
+  var emojiCardContainer = $("#games");
 
   // Create a variable for the emoji cards.
   var emojiCard = "";
@@ -13,8 +13,8 @@ $(document).ready(function () {
     
     emojiCard +=
     "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
-    "</span></p></div><div class='emoji-images'>" + emojiItems[i].emojiImgs +
-    "</div><div class='emoji-card-title hide-card'><div class='title-content'><h3>" + emojiItems[i].title + " (" + emojiItems[i].year + ")" + "</h3><div class='creator-container'><h4>" + emojiItems[i].creator + "</h4></div></div></div></div></div>";
+    "</span></p></div><div class='emoji-card-title hide-card'><div class='title-content'><h3>" + emojiItems[i].title + " (" + emojiItems[i].year + ")" + "</h3><div class='creator-container'><h4>" + emojiItems[i].creator + "</h4></div></div></div><div class='emoji-images'><div class='emoji-images-container'>" + emojiItems[i].emojiImgs +
+    "</div></div></div></div>";
   }
 
   // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
@@ -45,21 +45,21 @@ $(document).ready(function () {
   }
 
   // Expand the emoji card when clicked to reveal the song name, artist and music video link.
-  $("#books").on("click", ".emoji-images", function () {
+  $("#games").on("click", ".emoji-images", function () {
     $(this)
       .siblings(".emoji-card-title")
       .toggleClass("hide-card");
   });
 
   // Display a hint (type ie tv, movie or musical) when hovering over the question mark.
-  $("#books").on("mouseover", ".hint-container", function () {
+  $("#games").on("mouseover", ".hint-container", function () {
     $(this)
       .find(".hint")
       .addClass("hint-reveal");
   });
 
   // Hide hint (type ie tv, movie or musical) when the user stops hovering over the question mark.
-  $("#books").on("mouseleave", ".hint-container", function () {
+  $("#games").on("mouseleave", ".hint-container", function () {
     $(this)
       .find(".hint")
       .removeClass("hint-reveal");
