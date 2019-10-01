@@ -12,8 +12,8 @@ $(document).ready(function () {
   for (var i in emojiItems) {
     
     emojiCard +=
-    "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
-    "</span></p></div><div class='emoji-card-title hide-card'><div class='title-content'><h3>" + emojiItems[i].title + " (" + emojiItems[i].year + ")" + "</h3><div class='creator-container'><h4>" + emojiItems[i].creator + "</h4></div></div></div><div class='emoji-images'><div class='emoji-images-container'>" + emojiItems[i].emojiImgs +
+      "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='emoji-card-title hide-card'><div class='title-content'><h3>" + emojiItems[i].title + " (" + emojiItems[i].year + ")" + "</h3></div></div><div class='emoji-images'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
+    "</span></p></div><div class='emoji-images-container'>" + emojiItems[i].emojiImgs +
     "</div></div></div></div>";
   }
 
