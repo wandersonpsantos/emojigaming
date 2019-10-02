@@ -34,6 +34,13 @@ const emojiItems = [
         genres: ["fantasy", "young-adult", "fiction", "magic"],
         year: 1998,
         type: "video-game",
+    },{
+        title: "Rock Band",
+        creator: ["Harmonix", "Pi Studios"],
+        emojiImgs: "🤘🎤🎸",
+        genres: ["Rhythm game", "Rock music"],
+        year: 2007,
+        type: "video-game",
     }
 ]
 
